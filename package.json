@@ -1,0 +1,30 @@
+{
+  "name": "yare",
+  "version": "1.0.0",
+  "description": "Accord is a discord project management system composed of a bot and web app that implements features from Github involving open source projects and consists of features similar to Monday.com such as timeline management. Users will be able to issue commands to add goals or new features as well as display issues or pull requests from Github. The bot should also be able to manage roles and permissions based on issues or group assigned. The web app will provide a comprehensive view of the project(s) managed as well as provide extra customization and features.",
+  "main": "index.js",
+  "dependencies": {
+    "@firebase/firestore": "^3.1.1",
+    "custom-env": "^2.0.1",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "firebase": "^9.5.0",
+    "firebase-admin": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "octokit": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhta2000/Accord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhta2000/Accord/issues"
+  },
+  "homepage": "https://github.com/jhta2000/Accord#readme"
+}
